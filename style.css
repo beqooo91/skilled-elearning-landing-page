@@ -54,6 +54,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #83869A;
+    width: 343px;
 }
 
 .button-2 {
@@ -71,9 +72,8 @@ body {
 }
 
 .img-hero {
-    position: absolute;
-    margin-top: 106px;
-    margin-left: -213px;
+    margin-left: -46px;
+    margin-top: 46px;
 }
 
 .div-button {
@@ -82,7 +82,7 @@ body {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 10px;  
     display: flex;    
-    margin-top: 416px;
+    margin-top: -24px;
     margin-bottom: 40px;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .div-all {
     height: 259px;
-    width: 343px;
+    width: 339px;
     background: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     border-radius: 10px;
@@ -175,6 +175,301 @@ body {
     line-height: 28px;
     color: #FFFFFF;
 }
+
+/* responsive for tablet */
+
+@media (max-width: 414px) {   
+    
+    .text-tablet {
+        display: none;
+    }
+
+    .text-desktop {
+        display: none;
+    }
+
+    .img-hero-tablet {
+        display: none;
+    }
+
+    .img-hero-desktop {
+        display: none;
+    }
+
+    .text-button-desktop {
+        display: none;
+    }
+
+    .text-all-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 414px) {  
+    .main-div {        
+        width: 768px;
+        height: 1760px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .div-header {
+        margin: 24px 40px 99px 39px;
+    }
+    
+    .header {
+        margin-left: 39px;
+        margin-bottom: 25px;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .text-tablet {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;    
+        margin-left: 39px;
+        margin-bottom: 24px;
+    }
+
+    .button-2 {
+        margin-top: 0px;
+        margin-left: 39px;
+        margin-bottom: 186px;
+    }
+
+    .img-hero {
+        display: none;
+    }
+
+    .img-hero-tablet {
+        margin-top: -709px;
+        margin-left: 372px;
+    }
+    
+    .div-button {
+        height: 259px;
+        width: 340px;
+        margin: 0px;
+    }
+
+    .divs {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 56px 11px;
+        padding-left: 39px;
+        padding-right: 40px;
+    }    
+
+    .div-all {
+        margin: 0px;        
+    }
+
+    .last-div {
+        width: 768px;
+        margin: auto;
+        margin-top: 86px;
+    }
+
+    .foot-skilled {
+        margin-left: 40px;
+    }
+
+    .foot-button {
+        margin-right: 39px;
+    }
+}
+
+/* responsive for desktop */
+
+@media (max-width: 768px) {
+    
+    .text-desktop {
+        display: none;
+    }
+
+    .img-hero-desktop {
+        display: none;
+    }
+
+    .text-button-desktop {
+        display: none;
+    }
+
+    .text-all-desktop {
+        display: none;
+    }
+
+}  
+
+
+
+@media (min-width: 768px) {
+
+    .main-div {
+        width: 1440px;
+        height: 1845px;
+        position: relative;
+  }
+
+    .div-header {
+        position: relative;
+        margin: 24px 165px 172px 165px; 
+    }
+
+    .skilled {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .button-1 {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        width: 167px;
+        height: 56px;
+        font-size: 18px;
+    }
+
+    .button-1:hover {
+        cursor: pointer;
+        background: #666CA3;
+    }
+
+    .header {
+        font-size: 56px;
+        line-height: 71px;
+        margin-left: 165px;
+    }
+
+    .text-tablet {
+        display: none;
+    }
+
+    .text-desktop {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+        margin: 29px 0px 40px 165px;
+    }
+
+    .button-2 {
+        height: 63px;
+        margin-left: 165px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .button-2:hover {
+        cursor: pointer;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+    .img-hero-tablet {
+        display: none;
+    }
+
+    .img-hero-desktop {
+        position: absolute;
+        margin-top: -698px;
+        margin-left: 398px;
+        z-index: 1;
+    }
+
+    .div-button {
+        width: 350px;
+        height: 322px;
+    }
+
+    .text-button {
+        display: none;
+    }
+
+    .text-button-desktop {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        margin: 64px 32px 138px 32px;
+        color: #FFFFFF;
+    }
+
+    .divs {
+        grid-template-columns: auto auto auto;
+        gap: 80px 30px;
+        padding-left: 165px;
+        padding-right: 165px;
+        margin-top: 60px;
+    } 
+
+    .div-all {
+        width: 350px;
+        height: 322px;
+        position: relative;
+    }
+
+    .h1-all {
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 32px;
+        margin-top: 64px;
+        margin-bottom: 24px;
+    }
+
+    .text-all {
+        display: none;
+    }
+
+    .text-all-desktop {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+        margin-left: 32px;
+    }    
+
+    .button-3 {
+        position: absolute;
+        bottom: 40px;
+        margin-left: 32px;
+    }
+
+    .button-3:hover {
+        cursor: pointer;
+        color: #FFA7C3;        
+    }
+
+    .last-div {
+        width: 1440px;
+        height: 120px;
+        margin-top: 140px;
+    }
+
+    .foot-skilled {
+        font-size: 36px;
+        line-height: 45px;
+        margin-left: 165px;
+    }
+
+    .foot-button {
+        width: 167px;
+        height: 56px;
+        font-size: 18px;
+        margin-right: 165px;
+    }
+
+    .foot-button:hover {
+        cursor: pointer;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+}
+
+
+
 
 
 
